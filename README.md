@@ -17,7 +17,7 @@ AI-Churn-Prediction/
 │   ├── training/ (Random Forest) ---train_model.py       # Scripts for training the model
 │   ├── predictions/ ----- churn_model.pkl     # Scripts for making predictions
 │   └── utils/ (libraries----requiremnets.txt)           # Utility functions
-├── database/             # Database scripts and migrations
+├── database/ Using SQL            # Database scripts and migrations
 └── README.md             # Project README
 ```
 
