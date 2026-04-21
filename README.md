@@ -14,9 +14,9 @@ AI-Churn-Prediction/
 │   ├── Services/         # Business logic and services
 │   └── Program.cs        # Entry point
 ├── ml_model/             # Python machine learning model
-│   ├── training/         # Scripts for training the model
-│   ├── predictions/      # Scripts for making predictions
-│   └── utils/            # Utility functions
+│   ├── training/ (Random Forest) ---train_model.py       # Scripts for training the model
+│   ├── predictions/ ----- churn_model.pkl     # Scripts for making predictions
+│   └── utils/ (libraries----requiremnets.txt)           # Utility functions
 ├── database/             # Database scripts and migrations
 └── README.md             # Project README
 ```
@@ -55,7 +55,4 @@ The following dependencies are included in this project:
 1. Start the database service and run the migration scripts.
 2. Train the machine learning model using the provided training scripts.
 3. Run the C# backend API to expose the model predictions through API endpoints.
-4. You can make requests to the API using tools like Postman or cURL.
-
-## Conclusion
-This documentation provides a comprehensive overview of the project structure, setup, and usage instructions. Follow these guidelines to get started with the AI Churn Prediction system.
+4. You can make requests to the API using tools like Postman or URL.
